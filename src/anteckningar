@@ -1,0 +1,14 @@
+klasser:
+1 ButtonListener
+
+lyssnar efter användarens tryck och kollar ifall bredvid liggande yta är tom och flyttar då knappen till den toma platsen
+
+1 15puzzle
+
+
+
+1 checkWinner
+
+
+
+1 Randomizer
