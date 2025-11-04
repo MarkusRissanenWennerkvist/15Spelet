@@ -2,13 +2,16 @@ klasser:
 1 ButtonListener
 
 lyssnar efter användarens tryck och kollar ifall bredvid liggande yta är tom och flyttar då knappen till den toma platsen
+inte klar
 
 1 15puzzle
 
-
+semi klar
 
 1 checkWinner
 
-
+inte klar
 
 1 Randomizer
+
+klar
