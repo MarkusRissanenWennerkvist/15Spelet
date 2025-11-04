@@ -12,7 +12,7 @@ public class Randomizer {
     }
 
     public void slumpabräde(){
-        ArrayList<String>siffror=new ArrayList<>();
+        ArrayList<String> siffror = new ArrayList<>();
         for (int i = 1; i <=15; i++){
             siffror.add(String.valueOf(i));
         }

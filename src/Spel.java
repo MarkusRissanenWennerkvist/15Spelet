@@ -1,11 +1,14 @@
 import java.awt.*;
 import java.awt.event.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import javax.swing.*;
+import javax.swing.text.DefaultEditorKit;
 
 public class Spel extends JFrame {
 
     private JPanel spelbräde = new JPanel();
     private JButton[] knappLista = new JButton[16];
+    private AtomicInteger tomtIndex = new AtomicInteger(15);
 
     public Spel(){
         this.add(spelbräde);
@@ -14,6 +17,10 @@ public class Spel extends JFrame {
             JButton knapp = new JButton();
             knappLista[i] = knapp;
             spelbräde.add(knapp);
+        }
+        ActionListener knapplyssnare = new buttonListener(knappLista, tomtIndex);
+        for (JButton knapp : knappLista){
+            knapp.addActionListener(knapplyssnare);
         }
         Randomizer random = new Randomizer(this);
         random.slumpabräde();
