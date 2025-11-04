@@ -14,8 +14,9 @@ public class Spel extends JFrame {
             JButton knapp = new JButton();
             knappLista[i] = knapp;
             spelbräde.add(knapp);
-
         }
+        Randomizer random = new Randomizer(this);
+        random.slumpabräde();
         setSize(300,400);
         setLocationRelativeTo(null);
         setVisible(true);
