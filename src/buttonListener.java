@@ -33,5 +33,9 @@ public class buttonListener implements ActionListener {
         knappLista[tryckIndex].setText("");
         knappLista[tomaIndex].setText(temp);
         tomtIndex.set(tryckIndex);
+
+        if (CheckWinner.kollaVinsten(knappLista)){
+            CheckWinner.vinstMeddelande();
+        }
     }
 }
