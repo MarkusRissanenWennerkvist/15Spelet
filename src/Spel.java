@@ -15,6 +15,7 @@ public class Spel extends JFrame {
         spelbräde.setLayout(new GridLayout(4,4));
         for (int i = 0; i < 16; i++){
             JButton knapp = new JButton();
+            knapp.putClientProperty("index", i);
             knappLista[i] = knapp;
             spelbräde.add(knapp);
         }

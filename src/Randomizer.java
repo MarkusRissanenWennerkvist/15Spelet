@@ -16,13 +16,16 @@ public class Randomizer {
         for (int i = 1; i <=15; i++){
             siffror.add(String.valueOf(i));
         }
-        Collections.shuffle(siffror);
+        Collections.shuffle(siffror);//
 
         for (int i = 0; i < 15; i++){
             knappar[i].setText(siffror.get(i));
         }
         knappar[15].setText("");
     }
+
+    //lista ut hur jag gör hela brädet men två rutor är fel
+    // for loop 1-14 sätt den toma knappen på index 14
 
 
 }

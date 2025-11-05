@@ -2,15 +2,31 @@ klasser:
 1 ButtonListener
 
 lyssnar efter användarens tryck och kollar ifall bredvid liggande yta är tom och flyttar då knappen till den toma platsen
-inte klar
+ klar
 
 1 15puzzle
 
-semi klar
+semi klar (nytt spel knapp + vinn knapp)
+
+border layout på ny panel eller samma
+
+små ändringar ändra protioneringen samma logik
+tweeka slumpa bräde
 
 1 checkWinner
 
 inte klar
+klass med funktion där funktionen är en static boolean
+med en array list av Jbuttons som in parramaterar och sedan
+i den metoden så gör jag en for loop som går igenom 0 till 15 alla brickor inklusive tom
+
+2 variablar i for en sträng expected number sträng actual number = buttons / knapp.get().
+
+if statement if not actual number eaquals expected number then false
+
+return (utanflör) buttons.
+
+en till metod som är en vinn message som är en Joptionpane win message.
 
 1 Randomizer
 
