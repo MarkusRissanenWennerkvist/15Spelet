@@ -14,8 +14,7 @@ små ändringar ändra protioneringen samma logik
 tweeka slumpa bräde
 
 1 checkWinner
-
-inte klar
+klar
 klass med funktion där funktionen är en static boolean
 med en array list av Jbuttons som in parramaterar och sedan
 i den metoden så gör jag en for loop som går igenom 0 till 15 alla brickor inklusive tom
